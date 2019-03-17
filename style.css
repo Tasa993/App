@@ -1,0 +1,101 @@
+body
+{
+
+    background-image: url("https://cdn.pixabay.com/photo/2017/09/27/01/24/sunset-2790677_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+.container
+{
+    text-align: center;
+}
+h1
+{
+    color: white;
+    font-size: 50px;
+}
+input
+{
+   width: 50%;
+    margin: auto;
+    height: 30px;
+    font-size: 25px;
+}
+
+button
+{
+    height: 30px;
+    font-size: 20px;
+    background-color: lightgrey;
+    border-radius: 8px;
+}
+.lists
+{
+
+    width: 60%;
+    margin-left: 18%;
+
+}
+ul li:hover
+{
+    background: plum;
+}
+ul li.checked
+{
+
+    color: black;
+    text-decoration: line-through;
+}
+ul {
+
+    margin-top: 2rem;
+    list-style: none;
+
+}
+li
+{
+    border: 1px solid white;
+    padding: 10px;
+    font-size: x-large;
+    color: black;
+    border-radius: 4px;
+    width:70% ;
+    margin: auto;
+    text-align: left;
+}
+
+.button1
+{
+    float: right;
+    line-height: 15px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    background-color: red;
+
+}
+.time
+{
+    float: left;
+    width: 150px;
+    height: 30px;
+    font-size: x-large;
+    background: transparent;
+    border: transparent;
+
+}
+.button2
+{
+    float: right;
+    line-height: 15px;
+    width: 42px;
+    height: 25px;
+    border: 1px solid white;
+    background-color: blue;
+    text-align: center;
+}
